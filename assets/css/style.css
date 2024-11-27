@@ -1,5 +1,11 @@
 body {
-    background-color: #000000;
+  margin: 0;
+  background-color: #26292c !important; /* Dark background for sections */
+}
+
+nav {
+  position: relative;
+  z-index: 1050; /* Make sure the navbar is above other content */
 }
 
 .login-container {
@@ -19,7 +25,6 @@ body {
     background-color: rgb(255, 0, 0); /* Red background */
     margin: 0;
     padding: 0;
-    border-bottom: 2px solid #ddd; /* Optional: Adds a subtle bottom border */
 }
 
 .nav-link.active {  
@@ -60,31 +65,22 @@ body {
     margin-right: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.col-md-6 .row .col.p-4.d-flex.flex-column.position-static {
+  background-color: #d4d4d4; /* Set your desired background color */
+}
+
+
+h1 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  color: #ffffff;
 }
 
-
-/* Pagination */
-.blog-pagination {
-  margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
+h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  color: #000000;
 }
 
-/*
- * Blog posts
- */
-.blog-post {
-  margin-bottom: 4rem;
-}
-.blog-post-title {
-  margin-bottom: .25rem;
-  font-size: 2.5rem;
-}
-.blog-post-meta {
-  margin-bottom: 1.25rem;
-  color: #727272;
+.col.p-4 {
+  margin-right: 0;  /* Remove right margin if there's extra space */
 }
 
