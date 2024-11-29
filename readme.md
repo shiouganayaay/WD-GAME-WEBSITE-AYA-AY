@@ -4,25 +4,25 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/shiouganayaay/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/riotlogo.png" alt="Riot Games" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Title</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Ayoko na sir hehe
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=shiouganayaay/WD-GAME-WEBSITE-AYA-AY)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+<a href="https://wakatime.com/badge/user/c9270208-26c6-463a-9f39-30c7f183489e/project/d42dd030-371b-4fba-a6ea-a2af0191290d"><img src="https://wakatime.com/badge/user/c9270208-26c6-463a-9f39-30c7f183489e/project/d42dd030-371b-4fba-a6ea-a2af0191290d.svg" alt="wakatime"></a>
 
 ---
 
@@ -34,21 +34,18 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#overview">Overview</a>
+      <a href="#about-us">About Us</a>
       <ol>
         <li>
-          <a href="#key-components">Key Components</a>
+          <a href="#news">News</a>
         </li>
         <li>
-          <a href="#technology">Technology</a>
+          <a href="#games">Games</a>
         </li>
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
-    <li>
-      <a href="#resources">Resources</a>
+      <a href="#login">Log-in</a>
     </li>
   </ol>
 </details>
@@ -62,23 +59,20 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- The project is a Website Design or Layout Design for the game company Riot games, known for their games Valorant and League of Legends
+- The purpose of the design is to showcase the purpose of Riot Games as a gaming company, and what they have to offer for all its gamers.
+- One of the key components is the website designs' responsiveness, adapting to different screen sizes with it's limit being a tablet
+- The main technology used were, HTML, CSS, and Javascript Codes that can be seen all throughout the codes
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website Design
+- Responsive Design
+- Transparent Elements
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,6 +111,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Bootstrap | Element Layouts for information in the Website | https://getbootstrap.com/docs/5.0/examples/blog/ |
+| Bootstrap | Navigation Bar for the whole website | https://getbootstrap.com/docs/5.0/components/navbar/ |
+| Bootstrap | Carousel Slideshow component for all the games in the game tab | https://getbootstrap.com/docs/4.0/components/carousel/ |
