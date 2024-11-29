@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html">
-                    <img src="/assets/img/ritologo.png" alt="Riot Games" style="height: 40px;">
+                    <img src="./assets/img/ritologo.png" alt="Riot Games" style="height: 40px;">
                 </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
