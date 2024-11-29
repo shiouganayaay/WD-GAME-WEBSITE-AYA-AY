@@ -14,16 +14,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/pages/about-us/index.html">about us</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/about-us/index.html">about us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/pages/news/index.html">news</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/news/index.html">news</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/pages/games/index.html">games</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/games/index.html">games</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/pages/login/index.html">log in</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/login/index.html">log in</a>
                         </li>
                     </ul>
                     <form class="d-flex">
