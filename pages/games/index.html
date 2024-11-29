@@ -19,6 +19,74 @@
 </head>
 
 <body>
+
+  <style>
+    body {
+      background-color: #000000c0;
+      background-image: url('../../assets/img/background.gif');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      color: white;
+    }
+  
+    .container {
+      flex: 1;
+    }
+  
+    .form-control {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+  
+    .form-control:focus {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-color: #ff4655;
+      color: white;
+    }
+  
+    .btn-primary {
+      background-color: #ff4655;
+      border-color: #ff4655;
+    }
+  
+    .btn-primary:hover {
+      background-color: #ff5c69;
+      border-color: #ff5c69;
+    }
+  
+    .form-label {
+      color: white;
+    }
+  
+    /* Footer Styles */
+    .footer {
+      margin-top: auto; /* Pushes the footer to the bottom */
+      background-color: rgba(33, 37, 41, 0.9); /* Dark background for footer */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      width: 100%;
+    }
+  
+    .footer .nav {
+      margin-top: 0; /* Adjust margin as needed */
+    }
+  
+    .footer .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+    }
+  
+    .footer p {
+      color: white;
+      text-align: center;
+    }
+  
+  </style>
     <div id="navbar-placeholder"></div>
 
 <main class="container mt-5">

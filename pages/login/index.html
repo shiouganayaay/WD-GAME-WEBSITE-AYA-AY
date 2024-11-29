@@ -14,44 +14,86 @@
     href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
   <script src="/assets/js/navbar.js"></script>
-
 </head>
-  <style>
-    .login-container {
-      max-width: 400px;
-      margin: auto;
-      padding: 30px;
-      background-color: rgba(0, 0, 0, 0.8);
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      color: white;
-    }
-  
-    .form-control {
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      color: white;
-    }
-  
-    .form-control:focus {
-      background-color: rgba(255, 255, 255, 0.15);
-      border-color: #ff4655;
-      color: white;
-    }
-  
-    .btn-primary {
-      background-color: #ff4655;
-      border-color: #ff4655;
-    }
-  
-    .btn-primary:hover {
-      background-color: #ff5c69;
-      border-color: #ff5c69;
-    }
-  
-    .form-label {
-      color: white;
-    }
-  </style>
+
+<style>
+  body {
+    background-color: #000000c0;
+    background-image: url('../../assets/img/background.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+  }
+
+  .container {
+    flex: 1;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+
+  .form-control {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #ff4655;
+    color: white;
+  }
+
+  .btn-primary {
+    background-color: #ff4655;
+    border-color: #ff4655;
+  }
+
+  .btn-primary:hover {
+    background-color: #ff5c69;
+    border-color: #ff5c69;
+  }
+
+  .form-label {
+    color: white;
+  }
+
+  /* Footer Styles */
+  .footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+    background-color: rgba(33, 37, 41, 0.9); /* Dark background for footer */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+  }
+
+  .footer .nav {
+    margin-top: 0; /* Adjust margin as needed */
+  }
+
+  .footer .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+  }
+
+  .footer p {
+    color: white;
+    text-align: center;
+  }
+
+</style>
+
 <body>
   <div id="navbar-placeholder"></div>
 
@@ -74,7 +116,8 @@
     </div>
   </main>
 
-  <footer class="blog-footer">
+  <!-- Footer Section -->
+  <footer class="blog-footer footer">
     <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -88,11 +131,6 @@
       </footer>
     </div>
   </footer>
-</body>
-
-  <div class="video-background">
-    <div class="overlay"></div>
-  </div>
 
   <script>
     function validateLogin(event) {
