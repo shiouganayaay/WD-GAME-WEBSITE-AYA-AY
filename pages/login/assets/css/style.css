@@ -11,12 +11,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Home Section */
 
 .navbar {
     font-family: "Marcellus SC", serif;
-    color: #000000; /* Text color for the navbar */
-    background-color: rgb(255, 0, 0); /* Red background */
+    color: #000000;
+    background-color: rgb(255, 0, 0);
     margin: 0;
     padding: 0;
     border-bottom: 2px solid #ddd;
@@ -61,22 +60,22 @@ body {
 }
 
 html, body {
-    height: 100%; /* Use full height for the layout */
-    margin: 0; /* Remove default browser margins */
+    height: 100%;
+    margin: 0;
     display: flex;
-    flex-direction: column; /* Arrange content and footer vertically */
+    flex-direction: column;
   }
   
   .content {
-    flex: 1; /* Grow to fill available space */
+    flex: 1;
   }
   
   .blog-footer {
     background-color: rgba(33, 37, 41, 0.9);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    margin-top: auto; /* Pushes footer to bottom */
-    width: 100%; /* Ensures footer spans the full width */
-    box-sizing: border-box; /* Include padding and borders in width/height */
+    margin-top: auto; 
+    width: 100%;
+    box-sizing: border-box; 
   }
   
