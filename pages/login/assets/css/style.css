@@ -63,26 +63,24 @@ html, body {
 }
 
 .container {
-    flex: 1;  /* This ensures the main content area takes up available space */
+    flex: 1;
   }
   
-/* Default margin for larger screens */
 .blog-footer {
     margin-top: 15vh;
     margin-bottom: 0;
   }
   
-  /* For smaller screens, reduce the top margin */
+
   @media (max-width: 768px) {
     .blog-footer {
-      margin-top: 5vh;  /* Reduced for smaller screens */
+      margin-top: 5vh;
     }
   }
   
-  /* For very small screens (like mobile), further reduce margin */
   @media (max-width: 480px) {
     .blog-footer {
-      margin-top: 1vh;  /* Further reduced for mobile */
+      margin-top: 1vh; 
     }
   }
   
